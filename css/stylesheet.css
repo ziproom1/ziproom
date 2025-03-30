@@ -194,9 +194,11 @@ h5 {
   transition: all 0.2s ease;
 }
 .social-icons {
-  top: 0px;
-  position: absolute;
-  left: 20px;
+  position: relative;
+  width: 100%;
+  text-align: center;
+  padding: 40px 0 60px;
+  z-index: 10;
 }
 .social-icons ul {
   list-style: none;
@@ -385,9 +387,10 @@ header {
 }
 /*Counter*/
 #coundown-holder {
-  position: absolute;
-  bottom: 20px;
-  right: 30px;
+  position: relative;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  text-align: center;
 }
 .dash {
   vertical-align: bottom;
