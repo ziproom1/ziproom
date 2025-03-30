@@ -77,12 +77,12 @@ img {
 a:hover,
 a:focus,
 a:active {
-  color: #7C519D;
+  color: #8B0000;
   text-decoration: none;
 }
 a {
   text-decoration: none;
-  color: #7C519D;
+  color: #8B0000;
   -webkit-transition: all 0.3s ease;
   -moz-transition: all 0.3s ease;
   -o-transition: all 0.3s ease;
