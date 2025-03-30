@@ -45,7 +45,7 @@
 		  </ul>
 		</div>
 <!-- Countdown dashboard start -->
-		<div id="coundown-holder" class="wow fadeInUp" data-wow-delay="2.5s" >
+		<div id="countdown-holder" class="wow fadeInUp" data-wow-delay="2.5s" >
 		  <div id="counter-caption">
 			 Website<br>
 Will launch in
@@ -189,6 +189,22 @@ Will launch in
 	 <script  src="js/wow.min.js"></script>
 	 <script  src="js/script.js"></script>
 
+<script>
+  $(document).ready(function () {
+    $('#coundown-holder').countDown({
+      targetDate: {
+        'day': 30,
+        'month': 4,
+        'year': 2025,
+        'hour': 12,
+        'min': 0,
+        'sec': 0
+      },
+      omitWeeks: true
+    });
+  });
+</script>
+	  
   </body>
 
 
