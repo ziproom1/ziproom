@@ -107,13 +107,13 @@ p {
   font-size: 13px;
 }
 ::-moz-selection {
-  background-color: #7C519D;
+  background-color: #8B0000;
   color: #fff;
   text-shadow: none;
   -webkit-text-shadow: none;
 }
 ::selection {
-  background-color: #7C519D;
+  background-color: #8B0000;
   color: #fff;
   text-shadow: none;
   -webkit-text-shadow: none;
@@ -136,7 +136,7 @@ a:hover,
 a:active,
 a:focus {
   text-decoration: none;
-  color: #472e5a;
+  color: #5a0000;
 }
 .uppercase {
   text-transform: uppercase;
@@ -173,7 +173,7 @@ h5 {
 .error {
   font-size: 13px;
   line-height: 18px;
-  color: #7C519D;
+  color: #8B0000;
 }
 .absolute {
   position: absolute;
@@ -245,7 +245,7 @@ h5 {
   display: inline-block;
 }
 .social-icons li a:hover {
-  color: #7C519D;
+  color: #8B0000;
 }
 section,
 header {
@@ -308,13 +308,13 @@ header {
   -moz-background-clip: padding-box;
   -webkit-background-clip: padding-box;
   background-clip: padding-box;
-  background-color: #7C519D;
+  background-color: #8B0000;
   font-size: 13px;
   padding: 10px 15px;
   letter-spacing: 1px;
 }
 .le-btn:hover {
-  background-color: #61407b;
+  background-color: #660000;
   color: #fff;
   cursor: pointer;
 }
@@ -484,10 +484,10 @@ header {
   vertical-align: middle;
 }
 .highlight {
-  color: #7C519D;
+  color: #8B0000;
 }
 mark {
-  color: #7C519D;
+  color: #8B0000;
   background-color: transparent;
 }
 hr {
@@ -649,7 +649,7 @@ footer nav a:active {
   color: #fff;
 }
 footer nav a.active {
-  border-bottom-color: #7C519D;
+  border-bottom-color: #8B0000;
 }
 footer nav ul {
   list-style: none;
